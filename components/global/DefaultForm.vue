@@ -109,7 +109,7 @@
           <!-- End Checkbox -->
 
           <div class="mt-6 grid">
-            <button type="submit" class="btn rounded-md btn-primary-900">
+            <button type="submit" class="btn">
               Submit
             </button>
           </div>
