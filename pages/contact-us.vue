@@ -84,7 +84,20 @@
   </div>
 </template>
 
-<script></script>
+
+<script>
+export default {
+  name: "ContactUS",
+  data(){
+    return{
+      First_Name:"",
+      Last_Name:"",
+      Email: ""
+
+    }
+  }
+};
+</script>
 
 
 <style>
