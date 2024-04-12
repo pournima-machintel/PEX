@@ -87,7 +87,7 @@
                               <div>
                                 <div class="flex items-center border border-gray-300 bg-white rounded-l-lg pl-4">
                                   <!-- check to mark emailid field as type email, and other mandatory fields as type required -->
-                                  <img class="w-4 h-4" src="" />
+                                  <img class="w-4 h-4"  src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF1SURBVHgBzVNLTgJBFKxuBncmHGGOgCvjDm8AJ1B2BkwcSEzc8eYADmOCxOV4Ali6k6VxI0fgCER3kKGt7gghBJgomFBJT/9eVfq9VwMcOlQgUph+4lIBBeyAGTDqRpJ4scj4uiG+UbjBDlAKz5ySnN28vw1eTs9KfCRK+ANIDB8jCexa15phyy46kQinBn4JM0P1h4t6U9qKH8N0+0fHqNr0a4EUlUaP936G1ohilW4sQ9eHL3IMSto92aDMxnwEd+LbgHSGc0vYJpZnjI29IsdyrZhLeSnIn07wakWfYhk5UYXhqhKLP6DYScyY2q0Uc+QsZ+NSXuGMSap27qVvN3RAPHcAzx947opfb4QXTC3Git30mnQKxqC3aFZbAttFO+Zi7k6ZBGu8u+6FCxgo6UatcPnMdpJTsImzVdCJ0gHMI8SUwTm058XfBA8ZsA5AyqHdkzOhsWf8gyB9hT2Btup7+RSViUZZZ/9qW8Hyjr0UCQ4e3wNwk2kGNEtRAAAAAElFTkSuQmCC' alt="Mail Icon">
                                   <input
                                     class="text-gray-700 border-transparent px-2 focus:border-transparent focus:ring-0 ml-4"
                                     name="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" maxlength="100" type="email"
@@ -160,8 +160,10 @@
             <div class="space-x-4">
               <a href=" https://www.facebook.com/people/PartnerExplorer/61558168766772/?sk=about" target="_blank"><font-awesome-icon
                   :icon="['fab', 'square-facebook']" /></a>
-              <a href="https://twitter.com/MachintelInc" target="_blank"><font-awesome-icon
-                  :icon="['fab', 'x-twitter']" /></a>
+              <a  href="https://www.youtube.com/@PartnerExplorer" target="_blank">
+                <svg class="svg-inline--fa fa-youtube fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M549.655 127.201c-6.281-23.69-24.563-42.535-48.199-48.815C458.732 64 288 64 288 64S117.268 64 74.544 78.386c-23.636 6.28-41.918 25.125-48.199 48.815-14.094 52.956-14.094 174.518-14.094 174.518s0 121.562 14.094 174.518c6.281 23.69 24.563 42.535 48.199 48.814C117.268 448 288 448 288 448s170.732 0 213.456-14.386c23.636-6.28 41.918-25.124 48.199-48.814 14.094-52.956 14.094-174.518 14.094-174.518s0-121.562-14.094-174.518zM236.923 352.923V160.077l149.055 96.423-149.055 96.423z"></path>
+</svg></a>
               <a href="https://www.linkedin.com/company/partnerexplorer" target="_blank"><font-awesome-icon
                   :icon="['fab', 'linkedin']" /></a>
             </div>
