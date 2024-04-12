@@ -21,20 +21,20 @@
               <h2
                 class="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-primary font-black tracking-tight"
               >
-                {{ data.first_number.value }}
+                {{ data.businesses_number.value }}
               </h2>
               <h3 class="font-heading mb-3.5 text-xl text-primary font-bold">
-                {{ data.first_number_text.value }}
+                {{ data.businesses_text.value }}
               </h3>
             </div>
             <div class="md:max-w-xs mx-auto p-4">
               <h2
                 class="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-primary font-black tracking-tight"
               >
-                {{ data.second_number.value }}
+                {{ data.partnership_number.value }}
               </h2>
               <h3 class="font-heading mb-3.5 text-xl text-primary font-bold">
-                {{ data.second_number_text.value }}
+                {{ data.partnership_text.value }}
               </h3>
             </div>
           </div>

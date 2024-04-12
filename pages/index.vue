@@ -30,7 +30,7 @@ export default {
       config.defaultQueryConfig = { usePreviewMode: true };
     }
 
-    const deliveryClient = new DeliveryClient(config);
+    const deliveryClient = new DeliveryClient(config);  
 
     try {
       const response = await deliveryClient
@@ -62,7 +62,7 @@ export default {
         .join(""); // Join words without '-'
       return componentName;
     },
-
+    
     // Get nested components for a given item
     getNestedComponents(item) {
       const richTextElement = item.elements.components;

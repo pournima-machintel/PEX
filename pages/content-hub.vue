@@ -97,7 +97,7 @@ export default {
             const response = await deliveryClient
                 .items() // Replace with your actual Kontent item codename
                 .type(["blog_post", "resource_item"])
-                .collection("default")
+                .collection("partnerexplore")
                 .orderParameter("elements.date[desc]")
                 .toPromise();
 

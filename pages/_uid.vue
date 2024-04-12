@@ -35,7 +35,7 @@ export default {
         .items() // Replace with your actual Kontent item codename
         .type("component_page")
         .equalsFilter("elements.slug", route.params.uid)
-        .collection('partnerexplorer')
+        .collection('partnerexplore')
         .toPromise();
 
       return { pageData: response.data.items[0] };
